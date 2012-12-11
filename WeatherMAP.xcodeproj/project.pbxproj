@@ -88,8 +88,6 @@
 		9218930B1677161C00D61F6F = {
 			isa = PBXGroup;
 			children = (
-				921893511677175000D61F6F /* CoreLocation.framework */,
-				9218934F1677174700D61F6F /* MapKit.framework */,
 				921893201677161C00D61F6F /* WeatherMAP */,
 				9218933E1677161C00D61F6F /* WeatherMAPTests */,
 				921893191677161C00D61F6F /* Frameworks */,
@@ -109,6 +107,8 @@
 		921893191677161C00D61F6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				921893511677175000D61F6F /* CoreLocation.framework */,
+				9218934F1677174700D61F6F /* MapKit.framework */,
 				9218931A1677161C00D61F6F /* UIKit.framework */,
 				9218931C1677161C00D61F6F /* Foundation.framework */,
 				9218931E1677161C00D61F6F /* CoreGraphics.framework */,
