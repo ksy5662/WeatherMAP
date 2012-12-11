@@ -22,7 +22,16 @@
     }
     return self;
 }
-
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+        self.title = @"Weather POI";
+        self.tabBarItem.image = [UIImage imageNamed:@"poi_view_tab_icon"];
+    }
+    return self;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];

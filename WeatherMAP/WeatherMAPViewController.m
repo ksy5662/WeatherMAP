@@ -19,6 +19,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title = @"Weather Map";
+        self.tabBarItem.image = [UIImage imageNamed:@"map_view_tab_icon"];
     }
     return self;
 }
