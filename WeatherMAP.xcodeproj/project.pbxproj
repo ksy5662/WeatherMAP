@@ -21,6 +21,8 @@
 		9218933B1677161C00D61F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9218931C1677161C00D61F6F /* Foundation.framework */; };
 		921893431677161C00D61F6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 921893411677161C00D61F6F /* InfoPlist.strings */; };
 		921893461677161C00D61F6F /* WeatherMAPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921893451677161C00D61F6F /* WeatherMAPTests.m */; };
+		921893501677174700D61F6F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9218934F1677174700D61F6F /* MapKit.framework */; };
+		921893521677175000D61F6F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921893511677175000D61F6F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		921893421677161C00D61F6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		921893441677161C00D61F6F /* WeatherMAPTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeatherMAPTests.h; sourceTree = "<group>"; };
 		921893451677161C00D61F6F /* WeatherMAPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherMAPTests.m; sourceTree = "<group>"; };
+		9218934F1677174700D61F6F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		921893511677175000D61F6F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				921893521677175000D61F6F /* CoreLocation.framework in Frameworks */,
+				921893501677174700D61F6F /* MapKit.framework in Frameworks */,
 				9218931B1677161C00D61F6F /* UIKit.framework in Frameworks */,
 				9218931D1677161C00D61F6F /* Foundation.framework in Frameworks */,
 				9218931F1677161C00D61F6F /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +88,8 @@
 		9218930B1677161C00D61F6F = {
 			isa = PBXGroup;
 			children = (
+				921893511677175000D61F6F /* CoreLocation.framework */,
+				9218934F1677174700D61F6F /* MapKit.framework */,
 				921893201677161C00D61F6F /* WeatherMAP */,
 				9218933E1677161C00D61F6F /* WeatherMAPTests */,
 				921893191677161C00D61F6F /* Frameworks */,
