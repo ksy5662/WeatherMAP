@@ -23,6 +23,10 @@
 		921893461677161C00D61F6F /* WeatherMAPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 921893451677161C00D61F6F /* WeatherMAPTests.m */; };
 		921893501677174700D61F6F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9218934F1677174700D61F6F /* MapKit.framework */; };
 		921893521677175000D61F6F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921893511677175000D61F6F /* CoreLocation.framework */; };
+		9218935616771A7000D61F6F /* WeatherMAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9218935416771A7000D61F6F /* WeatherMAPViewController.m */; };
+		9218935716771A7000D61F6F /* WeatherMAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9218935516771A7000D61F6F /* WeatherMAPViewController.xib */; };
+		9218935B16771A9A00D61F6F /* WeatherPOIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9218935916771A9A00D61F6F /* WeatherPOIViewController.m */; };
+		9218935C16771A9A00D61F6F /* WeatherPOIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9218935A16771A9A00D61F6F /* WeatherPOIViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,12 @@
 		921893451677161C00D61F6F /* WeatherMAPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherMAPTests.m; sourceTree = "<group>"; };
 		9218934F1677174700D61F6F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		921893511677175000D61F6F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9218935316771A7000D61F6F /* WeatherMAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherMAPViewController.h; sourceTree = "<group>"; };
+		9218935416771A7000D61F6F /* WeatherMAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherMAPViewController.m; sourceTree = "<group>"; };
+		9218935516771A7000D61F6F /* WeatherMAPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherMAPViewController.xib; sourceTree = "<group>"; };
+		9218935816771A9A00D61F6F /* WeatherPOIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherPOIViewController.h; sourceTree = "<group>"; };
+		9218935916771A9A00D61F6F /* WeatherPOIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherPOIViewController.m; sourceTree = "<group>"; };
+		9218935A16771A9A00D61F6F /* WeatherPOIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherPOIViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,12 @@
 			children = (
 				921893291677161C00D61F6F /* WeatherMAPAppDelegate.h */,
 				9218932A1677161C00D61F6F /* WeatherMAPAppDelegate.m */,
+				9218935316771A7000D61F6F /* WeatherMAPViewController.h */,
+				9218935416771A7000D61F6F /* WeatherMAPViewController.m */,
+				9218935516771A7000D61F6F /* WeatherMAPViewController.xib */,
+				9218935816771A9A00D61F6F /* WeatherPOIViewController.h */,
+				9218935916771A9A00D61F6F /* WeatherPOIViewController.m */,
+				9218935A16771A9A00D61F6F /* WeatherPOIViewController.xib */,
 				921893211677161C00D61F6F /* Supporting Files */,
 			);
 			path = WeatherMAP;
@@ -236,6 +252,8 @@
 				9218932D1677161C00D61F6F /* Default.png in Resources */,
 				9218932F1677161C00D61F6F /* Default@2x.png in Resources */,
 				921893311677161C00D61F6F /* Default-568h@2x.png in Resources */,
+				9218935716771A7000D61F6F /* WeatherMAPViewController.xib in Resources */,
+				9218935C16771A9A00D61F6F /* WeatherPOIViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +290,8 @@
 			files = (
 				921893271677161C00D61F6F /* main.m in Sources */,
 				9218932B1677161C00D61F6F /* WeatherMAPAppDelegate.m in Sources */,
+				9218935616771A7000D61F6F /* WeatherMAPViewController.m in Sources */,
+				9218935B16771A9A00D61F6F /* WeatherPOIViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

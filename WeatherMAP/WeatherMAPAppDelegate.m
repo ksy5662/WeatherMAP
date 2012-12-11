@@ -7,6 +7,8 @@
 //
 
 #import "WeatherMAPAppDelegate.h"
+#import "WeatherMAPViewController.h"
+#import "WeatherPOIViewController.h"
 
 @implementation WeatherMAPAppDelegate
 
@@ -14,7 +16,24 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+
+    //jcyu
+    WeatherMAPViewController *mapViewController = [[WeatherMAPViewController alloc] initWithNibName:@"WeatherMAPViewController" bundle:nil];
+    
+    UINavigationController *mapNavController = [[UINavigationController alloc] initWithRootViewController:mapViewController];
+    
+    WeatherPOIViewController  *poiViewController = [[WeatherPOIViewController alloc] initWithNibName:@"WeatherPOIViewController" bundle:nil];
+    
+    UINavigationController *poiNavController = [[UINavigationController alloc] initWithRootViewController:poiViewController];
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    
+    tabBarController.viewControllers = [NSArray arrayWithObjects:mapNavController, poiNavController, nil];
+    
+    self.window.rootViewController = tabBarController;
+    
+    
+    //self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
