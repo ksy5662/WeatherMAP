@@ -64,6 +64,10 @@
 		921893F41677280800D61F6F /* restaurant_annotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893CF1677280800D61F6F /* restaurant_annotation@2x.png */; };
 		921893F51677280800D61F6F /* subcell.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893D01677280800D61F6F /* subcell.png */; };
 		921893F61677280800D61F6F /* subcell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893D11677280800D61F6F /* subcell@2x.png */; };
+		921893F9167739AF00D61F6F /* LSLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 921893F8167739AF00D61F6F /* LSLocation.m */; };
+		9297E3F416775030005E274D /* LSLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9297E3EF16775030005E274D /* LSLibrary.m */; };
+		9297E3F516775030005E274D /* LSPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9297E3F116775030005E274D /* LSPrinter.m */; };
+		9297E3F616775030005E274D /* LSRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9297E3F316775030005E274D /* LSRestaurant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +145,14 @@
 		921893CF1677280800D61F6F /* restaurant_annotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurant_annotation@2x.png"; sourceTree = "<group>"; };
 		921893D01677280800D61F6F /* subcell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subcell.png; sourceTree = "<group>"; };
 		921893D11677280800D61F6F /* subcell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subcell@2x.png"; sourceTree = "<group>"; };
+		921893F7167739AF00D61F6F /* LSLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLocation.h; sourceTree = "<group>"; };
+		921893F8167739AF00D61F6F /* LSLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLocation.m; sourceTree = "<group>"; };
+		9297E3EE16775030005E274D /* LSLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLibrary.h; sourceTree = "<group>"; };
+		9297E3EF16775030005E274D /* LSLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLibrary.m; sourceTree = "<group>"; };
+		9297E3F016775030005E274D /* LSPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPrinter.h; sourceTree = "<group>"; };
+		9297E3F116775030005E274D /* LSPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPrinter.m; sourceTree = "<group>"; };
+		9297E3F216775030005E274D /* LSRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRestaurant.h; sourceTree = "<group>"; };
+		9297E3F316775030005E274D /* LSRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSRestaurant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +217,12 @@
 		921893201677161C00D61F6F /* WeatherMAP */ = {
 			isa = PBXGroup;
 			children = (
+				9297E3EE16775030005E274D /* LSLibrary.h */,
+				9297E3EF16775030005E274D /* LSLibrary.m */,
+				9297E3F016775030005E274D /* LSPrinter.h */,
+				9297E3F116775030005E274D /* LSPrinter.m */,
+				9297E3F216775030005E274D /* LSRestaurant.h */,
+				9297E3F316775030005E274D /* LSRestaurant.m */,
 				921893291677161C00D61F6F /* WeatherMAPAppDelegate.h */,
 				9218932A1677161C00D61F6F /* WeatherMAPAppDelegate.m */,
 				9218935316771A7000D61F6F /* WeatherMAPViewController.h */,
@@ -212,6 +230,8 @@
 				9218935516771A7000D61F6F /* WeatherMAPViewController.xib */,
 				9218935816771A9A00D61F6F /* WeatherPOIViewController.h */,
 				9218935916771A9A00D61F6F /* WeatherPOIViewController.m */,
+				921893F7167739AF00D61F6F /* LSLocation.h */,
+				921893F8167739AF00D61F6F /* LSLocation.m */,
 				9218935A16771A9A00D61F6F /* WeatherPOIViewController.xib */,
 				921893211677161C00D61F6F /* Supporting Files */,
 			);
@@ -449,6 +469,10 @@
 				9218932B1677161C00D61F6F /* WeatherMAPAppDelegate.m in Sources */,
 				9218935616771A7000D61F6F /* WeatherMAPViewController.m in Sources */,
 				9218935B16771A9A00D61F6F /* WeatherPOIViewController.m in Sources */,
+				921893F9167739AF00D61F6F /* LSLocation.m in Sources */,
+				9297E3F416775030005E274D /* LSLibrary.m in Sources */,
+				9297E3F516775030005E274D /* LSPrinter.m in Sources */,
+				9297E3F616775030005E274D /* LSRestaurant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +641,7 @@
 				9218934B1677161C00D61F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9218934C1677161C00D61F6F /* Build configuration list for PBXNativeTarget "WeatherMAPTests" */ = {
 			isa = XCConfigurationList;
@@ -625,6 +650,7 @@
 				9218934E1677161C00D61F6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
