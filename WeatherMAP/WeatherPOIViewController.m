@@ -12,6 +12,7 @@
 
 @end
 
+
 @implementation WeatherPOIViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
