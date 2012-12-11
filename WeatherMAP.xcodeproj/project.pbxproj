@@ -27,6 +27,43 @@
 		9218935716771A7000D61F6F /* WeatherMAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9218935516771A7000D61F6F /* WeatherMAPViewController.xib */; };
 		9218935B16771A9A00D61F6F /* WeatherPOIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9218935916771A9A00D61F6F /* WeatherPOIViewController.m */; };
 		9218935C16771A9A00D61F6F /* WeatherPOIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9218935A16771A9A00D61F6F /* WeatherPOIViewController.xib */; };
+		921893D21677280800D61F6F /* button_library.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893AD1677280800D61F6F /* button_library.png */; };
+		921893D31677280800D61F6F /* button_library@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893AE1677280800D61F6F /* button_library@2x.png */; };
+		921893D41677280800D61F6F /* button_printer.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893AF1677280800D61F6F /* button_printer.png */; };
+		921893D51677280800D61F6F /* button_printer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B01677280800D61F6F /* button_printer@2x.png */; };
+		921893D61677280800D61F6F /* button_restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B11677280800D61F6F /* button_restaurant.png */; };
+		921893D71677280800D61F6F /* button_restaurant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B21677280800D61F6F /* button_restaurant@2x.png */; };
+		921893D81677280800D61F6F /* campus_map_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B31677280800D61F6F /* campus_map_bg.png */; };
+		921893D91677280800D61F6F /* campus_map_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B41677280800D61F6F /* campus_map_bg@2x.png */; };
+		921893DA1677280800D61F6F /* cell_selectedWithArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B51677280800D61F6F /* cell_selectedWithArrow.png */; };
+		921893DB1677280800D61F6F /* cell_selectedWithArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B61677280800D61F6F /* cell_selectedWithArrow@2x.png */; };
+		921893DC1677280800D61F6F /* cell_unselectedWithArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B71677280800D61F6F /* cell_unselectedWithArrow.png */; };
+		921893DD1677280800D61F6F /* cell_unselectedWithArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B81677280800D61F6F /* cell_unselectedWithArrow@2x.png */; };
+		921893DE1677280800D61F6F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893B91677280800D61F6F /* icon.png */; };
+		921893DF1677280800D61F6F /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893BA1677280800D61F6F /* icon@2x.png */; };
+		921893E01677280800D61F6F /* icon_library.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893BB1677280800D61F6F /* icon_library.png */; };
+		921893E11677280800D61F6F /* icon_library@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893BC1677280800D61F6F /* icon_library@2x.png */; };
+		921893E21677280800D61F6F /* icon_printer.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893BD1677280800D61F6F /* icon_printer.png */; };
+		921893E31677280800D61F6F /* icon_printer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893BE1677280800D61F6F /* icon_printer@2x.png */; };
+		921893E41677280800D61F6F /* icon_restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893BF1677280800D61F6F /* icon_restaurant.png */; };
+		921893E51677280800D61F6F /* icon_restaurant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893C01677280800D61F6F /* icon_restaurant@2x.png */; };
+		921893E61677280800D61F6F /* library_annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893C11677280800D61F6F /* library_annotation.png */; };
+		921893E71677280800D61F6F /* library_annotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893C21677280800D61F6F /* library_annotation@2x.png */; };
+		921893E81677280800D61F6F /* map_ar_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893C31677280800D61F6F /* map_ar_button.png */; };
+		921893E91677280800D61F6F /* map_ar_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893C41677280800D61F6F /* map_ar_button@2x.png */; };
+		921893EA1677280800D61F6F /* map_view_tab_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893C51677280800D61F6F /* map_view_tab_icon.png */; };
+		921893EB1677280800D61F6F /* map_view_tab_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893C61677280800D61F6F /* map_view_tab_icon@2x.png */; };
+		921893EC1677280800D61F6F /* map_x_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893C71677280800D61F6F /* map_x_button.png */; };
+		921893ED1677280800D61F6F /* map_x_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893C81677280800D61F6F /* map_x_button@2x.png */; };
+		921893EE1677280800D61F6F /* POI.plist in Resources */ = {isa = PBXBuildFile; fileRef = 921893C91677280800D61F6F /* POI.plist */; };
+		921893EF1677280800D61F6F /* poi_view_tab_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893CA1677280800D61F6F /* poi_view_tab_icon.png */; };
+		921893F01677280800D61F6F /* poi_view_tab_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893CB1677280800D61F6F /* poi_view_tab_icon@2x.png */; };
+		921893F11677280800D61F6F /* printer_annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893CC1677280800D61F6F /* printer_annotation.png */; };
+		921893F21677280800D61F6F /* printer_annotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893CD1677280800D61F6F /* printer_annotation@2x.png */; };
+		921893F31677280800D61F6F /* restaurant_annotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893CE1677280800D61F6F /* restaurant_annotation.png */; };
+		921893F41677280800D61F6F /* restaurant_annotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893CF1677280800D61F6F /* restaurant_annotation@2x.png */; };
+		921893F51677280800D61F6F /* subcell.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893D01677280800D61F6F /* subcell.png */; };
+		921893F61677280800D61F6F /* subcell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 921893D11677280800D61F6F /* subcell@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +104,43 @@
 		9218935816771A9A00D61F6F /* WeatherPOIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherPOIViewController.h; sourceTree = "<group>"; };
 		9218935916771A9A00D61F6F /* WeatherPOIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherPOIViewController.m; sourceTree = "<group>"; };
 		9218935A16771A9A00D61F6F /* WeatherPOIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WeatherPOIViewController.xib; sourceTree = "<group>"; };
+		921893AD1677280800D61F6F /* button_library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_library.png; sourceTree = "<group>"; };
+		921893AE1677280800D61F6F /* button_library@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_library@2x.png"; sourceTree = "<group>"; };
+		921893AF1677280800D61F6F /* button_printer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_printer.png; sourceTree = "<group>"; };
+		921893B01677280800D61F6F /* button_printer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_printer@2x.png"; sourceTree = "<group>"; };
+		921893B11677280800D61F6F /* button_restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_restaurant.png; sourceTree = "<group>"; };
+		921893B21677280800D61F6F /* button_restaurant@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_restaurant@2x.png"; sourceTree = "<group>"; };
+		921893B31677280800D61F6F /* campus_map_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = campus_map_bg.png; sourceTree = "<group>"; };
+		921893B41677280800D61F6F /* campus_map_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "campus_map_bg@2x.png"; sourceTree = "<group>"; };
+		921893B51677280800D61F6F /* cell_selectedWithArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_selectedWithArrow.png; sourceTree = "<group>"; };
+		921893B61677280800D61F6F /* cell_selectedWithArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_selectedWithArrow@2x.png"; sourceTree = "<group>"; };
+		921893B71677280800D61F6F /* cell_unselectedWithArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell_unselectedWithArrow.png; sourceTree = "<group>"; };
+		921893B81677280800D61F6F /* cell_unselectedWithArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cell_unselectedWithArrow@2x.png"; sourceTree = "<group>"; };
+		921893B91677280800D61F6F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		921893BA1677280800D61F6F /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		921893BB1677280800D61F6F /* icon_library.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_library.png; sourceTree = "<group>"; };
+		921893BC1677280800D61F6F /* icon_library@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_library@2x.png"; sourceTree = "<group>"; };
+		921893BD1677280800D61F6F /* icon_printer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_printer.png; sourceTree = "<group>"; };
+		921893BE1677280800D61F6F /* icon_printer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_printer@2x.png"; sourceTree = "<group>"; };
+		921893BF1677280800D61F6F /* icon_restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_restaurant.png; sourceTree = "<group>"; };
+		921893C01677280800D61F6F /* icon_restaurant@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_restaurant@2x.png"; sourceTree = "<group>"; };
+		921893C11677280800D61F6F /* library_annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library_annotation.png; sourceTree = "<group>"; };
+		921893C21677280800D61F6F /* library_annotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "library_annotation@2x.png"; sourceTree = "<group>"; };
+		921893C31677280800D61F6F /* map_ar_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_ar_button.png; sourceTree = "<group>"; };
+		921893C41677280800D61F6F /* map_ar_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_ar_button@2x.png"; sourceTree = "<group>"; };
+		921893C51677280800D61F6F /* map_view_tab_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_view_tab_icon.png; sourceTree = "<group>"; };
+		921893C61677280800D61F6F /* map_view_tab_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_view_tab_icon@2x.png"; sourceTree = "<group>"; };
+		921893C71677280800D61F6F /* map_x_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_x_button.png; sourceTree = "<group>"; };
+		921893C81677280800D61F6F /* map_x_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_x_button@2x.png"; sourceTree = "<group>"; };
+		921893C91677280800D61F6F /* POI.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = POI.plist; sourceTree = "<group>"; };
+		921893CA1677280800D61F6F /* poi_view_tab_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poi_view_tab_icon.png; sourceTree = "<group>"; };
+		921893CB1677280800D61F6F /* poi_view_tab_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poi_view_tab_icon@2x.png"; sourceTree = "<group>"; };
+		921893CC1677280800D61F6F /* printer_annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = printer_annotation.png; sourceTree = "<group>"; };
+		921893CD1677280800D61F6F /* printer_annotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "printer_annotation@2x.png"; sourceTree = "<group>"; };
+		921893CE1677280800D61F6F /* restaurant_annotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant_annotation.png; sourceTree = "<group>"; };
+		921893CF1677280800D61F6F /* restaurant_annotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restaurant_annotation@2x.png"; sourceTree = "<group>"; };
+		921893D01677280800D61F6F /* subcell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subcell.png; sourceTree = "<group>"; };
+		921893D11677280800D61F6F /* subcell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subcell@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +172,7 @@
 		9218930B1677161C00D61F6F = {
 			isa = PBXGroup;
 			children = (
+				921893AC1677280800D61F6F /* Resources */,
 				921893201677161C00D61F6F /* WeatherMAP */,
 				9218933E1677161C00D61F6F /* WeatherMAPTests */,
 				921893191677161C00D61F6F /* Frameworks */,
@@ -174,6 +249,51 @@
 				921893411677161C00D61F6F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		921893AC1677280800D61F6F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				921893AD1677280800D61F6F /* button_library.png */,
+				921893AE1677280800D61F6F /* button_library@2x.png */,
+				921893AF1677280800D61F6F /* button_printer.png */,
+				921893B01677280800D61F6F /* button_printer@2x.png */,
+				921893B11677280800D61F6F /* button_restaurant.png */,
+				921893B21677280800D61F6F /* button_restaurant@2x.png */,
+				921893B31677280800D61F6F /* campus_map_bg.png */,
+				921893B41677280800D61F6F /* campus_map_bg@2x.png */,
+				921893B51677280800D61F6F /* cell_selectedWithArrow.png */,
+				921893B61677280800D61F6F /* cell_selectedWithArrow@2x.png */,
+				921893B71677280800D61F6F /* cell_unselectedWithArrow.png */,
+				921893B81677280800D61F6F /* cell_unselectedWithArrow@2x.png */,
+				921893B91677280800D61F6F /* icon.png */,
+				921893BA1677280800D61F6F /* icon@2x.png */,
+				921893BB1677280800D61F6F /* icon_library.png */,
+				921893BC1677280800D61F6F /* icon_library@2x.png */,
+				921893BD1677280800D61F6F /* icon_printer.png */,
+				921893BE1677280800D61F6F /* icon_printer@2x.png */,
+				921893BF1677280800D61F6F /* icon_restaurant.png */,
+				921893C01677280800D61F6F /* icon_restaurant@2x.png */,
+				921893C11677280800D61F6F /* library_annotation.png */,
+				921893C21677280800D61F6F /* library_annotation@2x.png */,
+				921893C31677280800D61F6F /* map_ar_button.png */,
+				921893C41677280800D61F6F /* map_ar_button@2x.png */,
+				921893C51677280800D61F6F /* map_view_tab_icon.png */,
+				921893C61677280800D61F6F /* map_view_tab_icon@2x.png */,
+				921893C71677280800D61F6F /* map_x_button.png */,
+				921893C81677280800D61F6F /* map_x_button@2x.png */,
+				921893C91677280800D61F6F /* POI.plist */,
+				921893CA1677280800D61F6F /* poi_view_tab_icon.png */,
+				921893CB1677280800D61F6F /* poi_view_tab_icon@2x.png */,
+				921893CC1677280800D61F6F /* printer_annotation.png */,
+				921893CD1677280800D61F6F /* printer_annotation@2x.png */,
+				921893CE1677280800D61F6F /* restaurant_annotation.png */,
+				921893CF1677280800D61F6F /* restaurant_annotation@2x.png */,
+				921893D01677280800D61F6F /* subcell.png */,
+				921893D11677280800D61F6F /* subcell@2x.png */,
+			);
+			name = Resources;
+			path = CampusMap_Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +374,43 @@
 				921893311677161C00D61F6F /* Default-568h@2x.png in Resources */,
 				9218935716771A7000D61F6F /* WeatherMAPViewController.xib in Resources */,
 				9218935C16771A9A00D61F6F /* WeatherPOIViewController.xib in Resources */,
+				921893D21677280800D61F6F /* button_library.png in Resources */,
+				921893D31677280800D61F6F /* button_library@2x.png in Resources */,
+				921893D41677280800D61F6F /* button_printer.png in Resources */,
+				921893D51677280800D61F6F /* button_printer@2x.png in Resources */,
+				921893D61677280800D61F6F /* button_restaurant.png in Resources */,
+				921893D71677280800D61F6F /* button_restaurant@2x.png in Resources */,
+				921893D81677280800D61F6F /* campus_map_bg.png in Resources */,
+				921893D91677280800D61F6F /* campus_map_bg@2x.png in Resources */,
+				921893DA1677280800D61F6F /* cell_selectedWithArrow.png in Resources */,
+				921893DB1677280800D61F6F /* cell_selectedWithArrow@2x.png in Resources */,
+				921893DC1677280800D61F6F /* cell_unselectedWithArrow.png in Resources */,
+				921893DD1677280800D61F6F /* cell_unselectedWithArrow@2x.png in Resources */,
+				921893DE1677280800D61F6F /* icon.png in Resources */,
+				921893DF1677280800D61F6F /* icon@2x.png in Resources */,
+				921893E01677280800D61F6F /* icon_library.png in Resources */,
+				921893E11677280800D61F6F /* icon_library@2x.png in Resources */,
+				921893E21677280800D61F6F /* icon_printer.png in Resources */,
+				921893E31677280800D61F6F /* icon_printer@2x.png in Resources */,
+				921893E41677280800D61F6F /* icon_restaurant.png in Resources */,
+				921893E51677280800D61F6F /* icon_restaurant@2x.png in Resources */,
+				921893E61677280800D61F6F /* library_annotation.png in Resources */,
+				921893E71677280800D61F6F /* library_annotation@2x.png in Resources */,
+				921893E81677280800D61F6F /* map_ar_button.png in Resources */,
+				921893E91677280800D61F6F /* map_ar_button@2x.png in Resources */,
+				921893EA1677280800D61F6F /* map_view_tab_icon.png in Resources */,
+				921893EB1677280800D61F6F /* map_view_tab_icon@2x.png in Resources */,
+				921893EC1677280800D61F6F /* map_x_button.png in Resources */,
+				921893ED1677280800D61F6F /* map_x_button@2x.png in Resources */,
+				921893EE1677280800D61F6F /* POI.plist in Resources */,
+				921893EF1677280800D61F6F /* poi_view_tab_icon.png in Resources */,
+				921893F01677280800D61F6F /* poi_view_tab_icon@2x.png in Resources */,
+				921893F11677280800D61F6F /* printer_annotation.png in Resources */,
+				921893F21677280800D61F6F /* printer_annotation@2x.png in Resources */,
+				921893F31677280800D61F6F /* restaurant_annotation.png in Resources */,
+				921893F41677280800D61F6F /* restaurant_annotation@2x.png in Resources */,
+				921893F51677280800D61F6F /* subcell.png in Resources */,
+				921893F61677280800D61F6F /* subcell@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
